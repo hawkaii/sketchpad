@@ -12,8 +12,17 @@
     <div id = "div1">The text above has been created dynamically</div>
     <div id = "container"></div>
     <div id="customize">
-      <input type = "text" placeholder = "size of Board" value = "10" onchange= "changeSize(this.value)" />
-      <button>Set Size</button>
+      <input type = "text" placeholder = "size of Board" value = "10" onchange = "changeSize(this.value)" />
+      <button class = "size">Set Size</button>
+      <button class = "gridLine" value="ON" , onclick="changeValue()">grid</button>
+      <div>
+        <button class = "color" , onclick="changeColor(this.textContent)" >red</button>
+        <button class = "color" , onclick="changeColor(this.textContent)">purple</button>
+        <button class = "color" , onclick="changeColor(this.textContent)">yellow</button>
+        <button class = "color" , onclick="changeColor(this.textContent)">orange</button>
+        <button class = "color"  value = "cyan" , onclick="changeColor(this.value)">eraser</button>
+      </div>
+      <button  class = "paint" , onclick="offColor()" value = "off">OFF</button>
 
     </div>
 

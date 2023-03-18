@@ -8,7 +8,7 @@
     background: linear-gradient(rgba(96, 79, 252, 0.082), white);
 }
 #container{
-    width: 500px;
-    height: 500px;
+    width: 700px;
+    height: 700px;
     display: grid;
 }
